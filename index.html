@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script  src="https://kit.fontawesome.com/b3348ae33f.js"
+    crossorigin="anonymous"
+     ></script>
+    <link rel="stylesheet" href="main.css">
+    <title>To Do List</title>
+</head>
+<body>
+    <div class="container">
+        <h2 id="header-text">TO-DO-LIST</h2>
+        <div class="todo">
+            <div class="add-box" id="add-box">
+                <input type="text" placeholder="Enter Task here ..." id="input">
+                <button id="btn" onclick="addList()">+</button>
+                <p id="error-text"></p>
+            </div>
+            <ul class="list" id="list">
+                
+            </ul>
+            <div id="counter">
+                <p>Total task Left <i class="fa-regular fa-list-alt"></i></p>
+                <p id="count-task">0</p>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

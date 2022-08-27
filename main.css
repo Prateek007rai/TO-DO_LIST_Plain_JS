@@ -1,0 +1,123 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(135deg, #d8c6e3, #AEBAF8);
+    height: 100vh;
+}
+
+.container {
+    margin: 0px auto;
+    width: 50vw;
+    height: 680px;
+    background: linear-gradient(45deg, #7f8ab5, #ffe6ce);
+    text-align: center;
+    box-shadow: 8px 8px 8px grey;
+    border-radius: 10px;
+}
+
+#header-text {
+    padding-top: 25px;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(81, 51, 51);
+}
+
+#input {
+    background: white;
+    border: 0;
+    padding: 8px;
+    font-size: 20px;
+    width: 30vw;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+#input:focus {
+    border: 0;
+    outline: none;
+    box-shadow: 0px 0px 4px 0.5px grey;
+}
+
+#error-text {
+    font-size: 18px;
+    color: #fc0202;
+    width: max-content;
+    margin: 0 auto;
+}
+
+#btn {
+    padding: 5px 10px;
+    border: 2px solid white;
+    color: white;
+    text-transform: unset;
+    font-weight: bold;
+    margin: 5px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    background: #AEBAF8;
+}
+#btn:hover{
+    box-shadow: 0px 0px 3px 1px grey;
+    background-color: rgb(205, 164, 88);
+}
+
+#list {
+    background: #e2f3f5;
+    height: 50vh;
+    overflow: scroll;
+    padding: 20px 0 0 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.list-item {
+    padding: 10px 15px;
+    margin: 10px 20px;
+    height: 40px;
+    color: black;
+    list-style: none;
+    clear: both;
+    background:#d2cdcd;
+    border-radius: 15px;
+}
+.list-item:hover{
+    box-shadow: 0px 0px 2px 1px grey;
+}
+
+.list-text {
+    float: left;
+    text-align: left;
+    font-size: 18px;
+    color: maroon;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.list-text span {
+    font-weight: bold;
+    /* margin-bottom: 20px; */
+}
+
+#action-btn {
+    margin-top: 10px;
+    float: right;
+}
+
+
+
+/* total count */
+#counter{
+    float: left;
+    margin-top: -20px;
+}
+#counter p{
+    font-size: 20px;
+    margin-left: 15px;
+    color: rgb(75, 72, 67);
+}
+#counter #count-task{
+    margin-top: -10px;
+}
